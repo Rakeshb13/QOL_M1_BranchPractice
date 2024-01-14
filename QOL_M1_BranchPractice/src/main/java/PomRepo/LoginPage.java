@@ -11,4 +11,7 @@ public class LoginPage {
 	@FindBy(xpath = "//input[@value='Log in']")
 	private WebElement loginButton;
 
+	public void testcase() {
+		System.out.println("abc");
+	}
 }
