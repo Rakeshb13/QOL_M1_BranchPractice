@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Register_Page {
 	
-	@FindBy(id="gender-male")
+	@FindBy(xpath="gender-male")
 	private WebElement maleRadioButton;
 	
 	@FindBy(id="gender-female")
