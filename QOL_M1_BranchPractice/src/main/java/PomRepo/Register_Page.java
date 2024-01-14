@@ -67,5 +67,9 @@ public class Register_Page {
 	public WebElement getRegisterRadioButton() {
 		return registerRadioButton;
 	}
+	
+	public void testCase() {
+		System.out.println("abc");
+	}
 
 }
